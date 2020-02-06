@@ -5,16 +5,13 @@ let body = document.getElementById('gradient');
 let random = document.getElementById('random'); // "random" button
 
 // display initial color - which are orange (#ff9500) and white (#ffffff)
-currentColor.textContent =
-  'Color1 (left): ' + color1.value + ' Color2 (right): ' + color2.value;
+currentColor.textContent = `Color 1 (left): ${color1.value} Color2 (right): ${color2.value}`;
 
 const setGradient = () => {
-  body.style.background =
-    'Linear-gradient(to right, ' + color1.value + ', ' + color2.value + ')';
+  body.style.background = `Linear-gradient(to right, ${color1.value}, ${color2.value}))`;
 
   // change display to current value of color1 and color2
-  currentColor.textContent =
-    'Color1 (left): ' + color1.value + ' Color2 (right): ' + color2.value;
+  currentColor.textContent = `Color1 (left): ${color1.value} Color2 (right): ${color2.value}`;
 
   // changes the "random" button color to current value of color1
   random.style.background = color1.value;
