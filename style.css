@@ -8,16 +8,16 @@ body {
 h1 {
   font: 600 3.5em 'Montserrat', sans-serif;
   text-transform: uppercase;
-  letter-spacing: .3em;
+  letter-spacing: 0.3em;
 }
 
 h2 {
   font-family: 'Lato', sans-serif;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
 }
 
 h3 {
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
 }
 
 /* random button customize */
